@@ -1,4 +1,4 @@
-#Project Dawncall
+# Project Dawncall
 Currently in my spare time I am working on a game I have so far dubbed Project Dawncall. It is a fantasy city builder inspired in base gameloop idea by Caesar III. The focus is on management of infrastructure and services of a growing fantasy city with variety of races that have unique requirements and expectations.
 
 The game is still in an early stage so there is limited amount of stuff I can show - for starters, here you can find the basic design document I have written for the game. I have specifically aimed for a design document written as if given to a team though I am working alone. Over time I will update this page with further details as I progress.
