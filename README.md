@@ -1,2 +1,7 @@
-# ProjectDawncallGit
+# Project Dawncall
+Currently in my spare time I am working on a game I have so far dubbed Project Dawncall. It is a fantasy city builder inspired in base gameloop idea by Caesar III. The focus is on management of infrastructure and services of a growing fantasy city with variety of races that have unique requirements and expectations.
 
+The game is still in an early stage so there is limited amount of stuff I can show - for starters, here you can find the basic design document I have written for the game. I have specifically aimed for a design document written as if given to a team though I am working alone. Over time I will update this page with further details as I progress.
+
+# 2/7/2025 - Update 1 - Initial Development
+I have begun work on the project deciding against further design work until I have the base outline of game mechanics to give the game a base shape. I have chosen Unity for my work as while I would like to spend more time on UE5, Unity seems like a better choice for this sort of development especially while working alone. As such I have made considerable progress on the first day. As it stands I set up the initials of the project such as file system and then moved on to creation of the basic necessities such as the key Manager singletons, some baseline Enums such as BiomeType for Tiles and the Tile prefab including Tile Script for basic functions- I also set up full range of camera control, tile generation and a basic grid shader.
