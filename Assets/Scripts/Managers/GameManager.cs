@@ -12,7 +12,6 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        // Singleton pattern to ensure only one GameManager exists
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -27,13 +26,12 @@ public class GameManager : MonoBehaviour
     private void InitializeGame()
     {
         Debug.Log("Game Initialized");
-        // Init managers here if needed
+        // Init managers here
     }
 
 
     void Start()
     {
-        // Kick off grid generation, UI setup, etc.
         GridManager.Instance.GenerateGrid();
     }
 }

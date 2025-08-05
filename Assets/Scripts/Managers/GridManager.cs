@@ -24,6 +24,7 @@ public class GridManager : MonoBehaviour
         Instance = this;
     }
     #region Functions
+
     /// <summary>
     /// Initializes the grid at the beginning of the game.
     /// </summary>
@@ -44,6 +45,14 @@ public class GridManager : MonoBehaviour
                 // Attach tile data script and set its coordinates
                 tile.GetComponent<Tile>().Init(x, y, BiomeType.Mountain);
             }
+        }
+        GridLines gridLines = GetComponentInChildren<GridLines>();
+        if (gridLines != null)
+        {
+            gridLines.width = width;
+            gridLines.height = height;
+            gridLines.GenerateGridLines();
+
         }
         CenterCameraOnGrid();
     }

@@ -537,6 +537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1688103906}
   - component: {fileID: 1688103907}
+  - component: {fileID: 1688103908}
   m_Layer: 0
   m_Name: GridManager
   m_TagString: Untagged
@@ -574,6 +575,22 @@ MonoBehaviour:
   width: 10
   height: 10
   tilePrefab: {fileID: 3370131981465669113, guid: 3be0d2855e56fcc43824dca0a8e99f8d, type: 3}
+--- !u!114 &1688103908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688103905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ae4eb4542d284bafbf3e1c0c91bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 10
+  height: 10
+  lineWidth: 0.05
+  lineColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &1713356659
 GameObject:
   m_ObjectHideFlags: 0

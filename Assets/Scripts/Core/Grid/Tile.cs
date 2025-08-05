@@ -5,6 +5,7 @@ using UnityEngine;
 /// </summary>
 public class Tile : MonoBehaviour
 {
+    public string tileId; // Unique identifier for the tile, can be used for debugging or saving/loading
     public int x, y;    // Grid coordinates of this tile
     public BiomeType biomeType; // Type of biome this tile belongs to
     public FeatureType features;    // Bitmask for features like forest, river, etc.
